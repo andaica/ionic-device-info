@@ -1,0 +1,55 @@
+{
+  "_from": "cordova-plugin-deviceinfo",
+  "_id": "cordova-plugin-deviceinfo@0.0.1",
+  "_inBundle": false,
+  "_integrity": "sha1-pDn3ExPN6J7qyd/Br98qLOHnU0k=",
+  "_location": "/cordova-plugin-deviceinfo",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "cordova-plugin-deviceinfo",
+    "name": "cordova-plugin-deviceinfo",
+    "escapedName": "cordova-plugin-deviceinfo",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/cordova-plugin-deviceinfo/-/cordova-plugin-deviceinfo-1.0.3.tgz",
+  "_shasum": "a439f71313cde89eeac9dfc1afdf2a2ce1e75349",
+  "_spec": "cordova-plugin-deviceinfo",
+  "_where": "/home/andaica/Project/ionic-angular/deviceInfo/node_modules",
+  "author": {
+    "name": "alongubkin"
+  },
+  "bugs": {
+    "url": "https://github.com/danielflippance/deviceinfo/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "Cordova plugin for get device info",
+  "homepage": "https://github.com/danielflippance/deviceinfo#readme",
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios",
+    "ionic",
+    "device",
+    "info"
+  ],
+  "license": "Apache-2.0",
+  "main": "index.js",
+  "name": "cordova-plugin-deviceinfo",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danielflippance/deviceinfo.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "0.0.1"
+}

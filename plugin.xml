@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    id="cordova-plugin-deviceinfo"
+    version="0.0.1">
+
+    <name>cordova-plugin-deviceinfo</name>
+    <description>Get the infomation of mobile device</description>
+    <license>Apache</license>
+
+    <engines>
+        <engine name="cordova" version=">=3.0.0" />
+    </engines>    
+
+    <js-module src="www/deviceinfo.js" name="DeviceInfo">
+        <clobbers target="DeviceInfo" />
+    </js-module>
+	
+    <!-- <platform name="ios">
+        <config-file target="config.xml" parent="/*">
+			<feature name="AudioTogglePlugin">
+				<param name="ios-package" value="AudioTogglePlugin" />
+			</feature>
+        </config-file>
+
+        <header-file src="src/ios/AudioTogglePlugin.h" />		
+        <source-file src="src/ios/AudioTogglePlugin.m" />
+
+        <framework src="AVFoundation.framework" />
+		<framework src="AudioToolbox.framework" />
+    </platform> -->
+
+    <platform name="android">
+        <source-file src="src/android/com/andaica/deviceinfo/DeviceInfoPlugin.java" target-dir="src/com/andaica/deviceinfo" />
+  
+        <config-file target="res/xml/config.xml" parent="/*">
+			<feature name="DeviceInfoPlugin">
+				<param name="android-package" value="com.andaica.deviceinfo.DeviceInfoPlugin" />
+			</feature>	
+        </config-file>
+
+    </platform>
+</plugin>
