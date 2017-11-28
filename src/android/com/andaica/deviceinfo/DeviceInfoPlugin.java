@@ -57,6 +57,7 @@ public class DeviceInfoPlugin extends CordovaPlugin {
 	public int getCameraId(int position) throws JSONException {
 		// Find the total number of cameras available
 		int mNumberOfCameras = Camera.getNumberOfCameras();
+		this.cameraInfo.put("cameraNumber", mNumberOfCameras);
 		int cameraId = NO_CAMERA;
 		// Find the ID of the back-facing ("default") camera
 		Camera.CameraInfo cameraInfo = new Camera.CameraInfo();
